@@ -8,12 +8,10 @@ namespace GitMVC.Controllers
 {
     public class HomeController : Controller
     {
-        //
-        // GET: /Home/
 
-        public ActionResult Index()
+        public void Index()
         {
-            return View();
+            Response.Write("From Index");
         }
 
     }
