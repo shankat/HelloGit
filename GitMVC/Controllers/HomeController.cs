@@ -14,6 +14,11 @@ namespace GitMVC.Controllers
             Response.Write("From Index");
         }
 
+        public void About()
+        {
+            Response.Write("From About");
+        }
+
         public void Contact()
         {
             Response.Write("From Contact");
